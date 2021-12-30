@@ -11,10 +11,10 @@ const Quote = (props) => {
   return (
     <div className="quote">
       <h1>
-        If the rain is the worst thing that happens to you today, you have a
-        pretty awesome life.
+        I like it when it rains, because even if i don't like it, it still
+        rains.
       </h1>
-      <h4>J.B.</h4>
+      <h4>jb.</h4>
     </div>
   );
 };
