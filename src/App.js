@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+// CSS
+import "./index.css";
+
+const Card = (props) => {
+  return <div className="card">{props.children}</div>;
+};
+
+const Quote = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="quote">
+      <h1>
+        If the rain is the worst thing that happens to you today, you have a
+        pretty awesome life.
+      </h1>
+      <h4>J.B.</h4>
     </div>
   );
-}
+};
+
+const App = () => {
+  return (
+    <div className="App">
+      <Card>
+        <Quote />
+      </Card>
+    </div>
+  );
+};
 
 export default App;
