@@ -14,7 +14,6 @@ const Quote = (props) => {
         I like it when it rains, because even if i don't like it, it still
         rains.
       </h1>
-      <h4>jb.</h4>
     </div>
   );
 };

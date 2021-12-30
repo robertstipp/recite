@@ -18,11 +18,11 @@
 
 .quote {
   margin: 15%;
-  width: 600px;
+  width: 700px;
   color: white;
   border: 1px solid white;
 }
 
-.qoute h1 {
-  margin: 30px 40px 0;
+h1 {
+  margin: 40px 20px 40px 20px;
 }
