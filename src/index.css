@@ -1,5 +1,5 @@
 * {
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -19,10 +19,10 @@
 .quote {
   margin: 15%;
   width: 800px;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
 }
 
 h1 {
-  margin: 40px 40px 30px 40px;
+  margin: 30px 30px 20px 30px;
 }
