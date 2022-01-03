@@ -11,7 +11,7 @@ const Quote = (props) => {
   return (
     <div className="quote">
       <h1>We suffer more often in imagination than in reality.</h1>
-      <h4>- Seneca -</h4>
+      <h4>Seneca</h4>
     </div>
   );
 };
