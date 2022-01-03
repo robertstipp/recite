@@ -10,12 +10,8 @@ const Card = (props) => {
 const Quote = (props) => {
   return (
     <div className="quote">
-      <h1>
-        Regain your senses, call yourself back, and once again wake up. Now that
-        you realize only dreams were troubling you, view this "reality" as you
-        view your dreams.
-      </h1>
-      <h4>- Marcus Aurelius -</h4>
+      <h1>We suffer more often in imagination than in reality.</h1>
+      <h4>- Seneca -</h4>
     </div>
   );
 };
